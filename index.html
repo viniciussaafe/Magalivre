@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Vinicius">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagaLivre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="cabeca">
+        <img src="IMAGENS/34f6cfaf-7378-447b-934a-967e657bc931.jpg" alt="Logo do site" class="logo">
+        <h1>
+            MagaLivre
+        </h1>
+
+        <div class="favoritos">
+            <a href="">
+                <img src="IMAGENS/coracao.png" alt="">
+            </a>
+        </div>
+
+        <div class="carrinho">
+            <a href="">
+                <img src="IMAGENS/symbole-charrette-jaune.png" alt="Carrinho de compras">
+            </a>
+        </div>
+
+        <div class="conta">
+            <a href="conta.html">
+                <img src="IMAGENS/contact-icon-png-5.jpg" alt="">
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <aside>
+            <a href="celular.html">
+                Celulares
+            </a>
+            <br>
+            <a href="tv.html">
+                TV's
+            </a>
+            <br>
+            <a href="computador.html">
+                Computadores
+            </a>
+            <br>
+        </aside>
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radios" id="radio1">
+                <input type="radio" name="radios" id="radio2">
+                <input type="radio" name="radios" id="radio3">
+                <input type="radio" name="radios" id="radio4">
+
+                <div class="slide first">
+                    <a href="computador.html">
+                        <img src="IMAGENS/9e6f615f-4ebf-4b67-a706-5c4121728aa4.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <a href="">
+                        <img src="IMAGENS/c2b3d3d2-94f3-4f94-a341-c9707e199828.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <a href="tv.html">
+                        <img src="IMAGENS/00fe1322-6d18-42d5-9c3e-b3308f46cbb3.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="slide">
+                    <a href="celular.html">
+                        <img src="IMAGENS/a0419047-f4fa-49e7-9d64-827f4eb20297.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="navigation">
+                    <div class="auto1"></div>
+                    <div class="auto2"></div>
+                    <div class="auto3"></div>
+                    <div class="auto4"></div>
+                </div>
+            </div>
+
+            <div class="manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+            <div class="pesquisebar">
+                <input onkeyup="filtrar()" type="text" id="filtro" placeholder="Pesquisa...">
+                <ul id="lista"> 
+                    <li class="item">
+                        <a href="celular.html">
+                            Celulares
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="computador.html">
+                            Computadores
+                        </a>
+                    </li>
+
+                    <li class="item">
+                        <a href="tv.html">
+                            Televisôes
+                        </a>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+
+        <div class="mid">
+            <a href="celular.html">
+                <img src="IMAGENS/images (1).jpg" alt="">
+            </a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

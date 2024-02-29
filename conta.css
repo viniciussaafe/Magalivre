@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    background-color: gray;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #121921;
+    padding: 10px 20px 10px 20px;
+}
+
+.cabeca h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8c367;
+    text-shadow: 2px 2px 5px #887047;
+}
+
+.cabeca .logo {
+    width: 165px;
+    height: 90px;
+}
+
+.cabeca .carrinho {
+    margin-left: 20px;
+}
+
+.cabeca .carrinho img {
+    height: 30px;
+    width: 30px;
+}
+
+.cabeca .conta {
+    margin-left: 50px;
+}
+
+.cabeca .conta img {
+    height: 45px;
+    width: 45px;
+}
+
+.cabeca .favoritos {
+    margin-left: 800px;
+}
+
+.cabeca .favoritos img {
+    height: 38px;
+    width: 38px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main aside { 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(76, 76, 76);
+    width: 40px;
+    height: 100vh;
+    transition: 1s;
+    align-content: space-evenly;
+    padding: 10px 10px 10px 25px;
+    border: 0px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: #121921;
+}
+
+main aside:hover {
+    width: 200px; 
+}
+
+main aside a {
+    text-decoration: none;
+    enable-background: new;
+    padding: 10px 16px;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+
+main aside a:hover {
+    background-color: #fabb4f;
+    color: black;
+    border-radius: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Caixa{
+    /* border: 1px solid red; */
+    height: 550px;
+    width: 1000px;
+    margin-top: 200px;
+
+}
+
+.aba a{
+    text-decoration: none;
+}
+
+.aba a:hover{
+    text-decoration: underline;
+}
+
+.conteudo{
+    font-family: 'Josefin Sans', sans-serif;
+    height: fit-content;
+    width: 1000px;
+}
+
+.Janelas{
+    background-color: #f8c367;
+}

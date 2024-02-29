@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Vinicius">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagaLivre</title>
+    <link rel="stylesheet" href="celular.css">
+</head>
+
+<body>
+    <nav class="cabeca">
+        <img src="IMAGENS/34f6cfaf-7378-447b-934a-967e657bc931.jpg" alt="Logo do site" class="logo">
+        <h1>
+            MagaLivre
+        </h1>
+
+        <div class="favoritos">
+            <a href=""><img src="IMAGENS/coracao.png" alt=""></a>
+        </div>
+
+        <div class="carrinho">
+            <a href=""><img src="IMAGENS/symbole-charrette-jaune.png" alt="Carrinho de compras"></a>
+        </div>
+
+        <div class="conta">
+            <a href="conta.html"><img src="IMAGENS/contact-icon-png-5.jpg" alt=""></a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">  
+            <aside>
+                <a href="index.html">Home</a><br>
+                <a href="tv.html">TV's</a><br>
+                <a href="computador.html">Computadores</a><br>
+            </aside>
+
+            <div class="slide">
+                <a href="/promocao/SAMSUNG" target="_self" rel="noreferrer"><img src="https://themes.kabum.com.br/conteudo/layout/3972/banner_img.jpg" alt="MDF - SAMSUNG VERSÃO 2 "></a>
+            </div>
+            <div class="section1">
+                <div class="caixa" id="case1">
+                    <img src="samsungs20.jpg" alt="samsungGalaxy s20">
+                    <p>Smartphone Samsung Galaxy S20 FE, 5G, 128GB, 6GB RAM, Octa Core, Câmera Tripla 32MP, Tela Infinita de 6.5, Violeta</p>
+                    <s>R$ 1.947,26</s>
+                    <h2>R$ 1.499,00</h2>
+                    <button onclick="feito()">COMPRAR</button>
+                    <button>CARRINHO</button>
+                </div>
+    
+                <div class="caixa" id="case2">
+                   
+                    <button>COMPRAR</button>
+                    <button>CARRINHO</button>
+                </div>
+    
+                <div class="caixa" id="case3">
+                   
+                    <button>COMPRAR</button>
+                    <button>CARRINHO</button>
+                </div>
+    
+            </div>
+            <br>
+            <div class="section2">
+                <div class="caixa" id="case4">
+                   
+                    <button>COMPRAR</button>
+                    <button>CARRINHO</button>
+                </div>
+    
+                <div class="caixa" id="case5">
+                   
+                    
+                    <button>COMPRAR</button>
+                    <button>CARRINHO</button>
+                </div>
+    
+                <div class="caixa" id="case6">
+                    
+                    <button>COMPRAR</button>
+                    <button>CARRINHO</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pesquisebar">
+            <input onkeyup="filtrar()" type="text" id="filtro" placeholder="Pesquisa...">
+            <ul id="lista"> 
+                <li class="item"><a href="celular.html">Celulares</a></li>
+
+                <li class="item"><a href="computador.html">Computadores</a></li>
+
+                <li class="item"><a href="tv.html">Televisôes</a></li>
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

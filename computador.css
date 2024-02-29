@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    background-color: gray;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #121921;
+    padding: 10px 20px 10px 20px;
+}
+
+.cabeca h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8c367;
+    text-shadow: 2px 2px 5px #887047;
+}
+
+.cabeca .logo {
+    width: 165px;
+    height: 90px;
+}
+
+.cabeca .carrinho {
+    margin-left: 20px;
+}
+
+.cabeca .carrinho img {
+    height: 30px;
+    width: 30px;
+}
+
+.cabeca .conta {
+    margin-left: 50px;
+}
+
+.cabeca .conta img {
+    height: 45px;
+    width: 45px;
+}
+
+.cabeca .favoritos {
+    margin-left: 800px;
+}
+
+.cabeca .favoritos img {
+    height: 38px;
+    width: 38px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main aside { 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(76, 76, 76);
+    width: 40px;
+    height: 100vh;
+    transition: 1s;
+    align-content: space-evenly;
+    padding: 10px 10px 10px 25px;
+    border: 0px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: #121921;
+    position: absolute;
+}
+
+main aside:hover {
+    width: 200px; 
+}
+
+main aside a {
+    text-decoration: none;
+    enable-background: new;
+    padding: 10px 16px;
+    font-family: Verdana, sans-serif;
+    color: black;
+}
+
+main aside a:hover {
+    background-color: #fabb4f;
+    color: black;
+    border-radius: 10px;
+}
+
+.quadrado { 
+    height: 470px;
+    width: 250px;
+    border: 5px solid;
+    border-color: #121921;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 235px;
+    margin-top: 35px;
+}
+
+.quadrado2 {
+    height: 470px;
+    width: 250px;
+    border: 5px solid;
+    border-color: #121921;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+.quadrado3 {
+    height: 470px;
+    width: 250px;
+    border: 5px solid;
+    border-color: #121921;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 35px;
+    margin-right: 35px;
+}
+    
+.quadrado1 {
+    height: 470px;
+    width: 250px;
+    border: 5px solid;
+    border-color: #121921;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+.imgcomp { 
+    border: 1px solid rgb(0, 0, 0);
+    width: 190px;
+    height: 150px;
+}
+   
+s {
+    font-size: 12px;
+    Font-family: arial, helvetica, sans-serif;
+}
+    
+h2 {
+    Font-family: arial, helvetica, sans-serif;
+}
+  
+.quad {
+    font-size: 20px;
+    Font-family: arial, helvetica, sans-serif;
+}
+
+p {
+    font-size: 13px;
+    Font-family: arial, helvetica, sans-serif;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    cursor: pointer;
+    border: 3px;
+    border-style: solid;
+    border-color: #121921;
+    Font-family: arial, helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #fabb4f;
+    color: #121921;
+    border-color: #121921;
+}
